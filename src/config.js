@@ -10,3 +10,4 @@ const firebaseApp = Firebase.initializeApp({
 });
 export const db = firebaseApp.database();
 export const storage = firebaseApp.storage();
+export const appFireBase = firebaseApp;
